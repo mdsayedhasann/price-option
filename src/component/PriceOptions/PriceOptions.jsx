@@ -7,7 +7,7 @@ const PriceOptions = () => {
       id: 1,
       name: "Basic Gum Pack",
       price: 1.99,
-      features: ["10 pieces of gum", "Assorted flavors", "Sugar-free"],
+      features: ["10 pieces of gum", "Assorted flavors", "Sugar-free", "10 pieces of gum", "10 pieces of gum"],
     },
     {
       id: 2,
@@ -17,6 +17,8 @@ const PriceOptions = () => {
         "15 pieces of mint-flavored gum",
         "Long-lasting freshness",
         "Sugar-free",
+        "Long-lasting freshness",
+        "Long-lasting freshness",
       ],
     },
     {
@@ -27,74 +29,10 @@ const PriceOptions = () => {
         "12 pieces of fruit-flavored gum",
         "Variety of fruity flavors",
         "Sugar-free",
+        "Sugar-free",
+        "Sugar-free",
       ],
     },
-    // {
-    //   id: 4,
-    //   name: "Gum Lover's Variety Pack",
-    //   price: 3.99,
-    //   features: ["20 pieces of assorted gum", "Mix of flavors", "Sugar-free"],
-    // },
-    // {
-    //   id: 5,
-    //   name: "Classic Bubblegum Pack",
-    //   price: 1.79,
-    //   features: [
-    //     "8 pieces of classic bubblegum",
-    //     "Nostalgic flavor",
-    //     "Sugar-free",
-    //   ],
-    // },
-    // {
-    //   id: 6,
-    //   name: "Tropical Fruit Delight",
-    //   price: 2.79,
-    //   features: [
-    //     "14 pieces of tropical fruit gum",
-    //     "Exotic fruit flavors",
-    //     "Sugar-free",
-    //   ],
-    // },
-    // {
-    //   id: 7,
-    //   name: "Cool Peppermint Pack",
-    //   price: 2.29,
-    //   features: [
-    //     "12 pieces of peppermint gum",
-    //     "Cooling sensation",
-    //     "Sugar-free",
-    //   ],
-    // },
-    // {
-    //   id: 8,
-    //   name: "Bubblegum Blast Pack",
-    //   price: 2.19,
-    //   features: [
-    //     "10 pieces of bubblegum",
-    //     "Intense bubblegum flavor",
-    //     "Sugar-free",
-    //   ],
-    // },
-    // {
-    //   id: 9,
-    //   name: "Citrus Splash Pack",
-    //   price: 2.49,
-    //   features: [
-    //     "15 pieces of citrus-flavored gum",
-    //     "Zesty and refreshing",
-    //     "Sugar-free",
-    //   ],
-    // },
-    // {
-    //   id: 10,
-    //   name: "Extra Chewy Pack",
-    //   price: 2.69,
-    //   features: [
-    //     "18 pieces of extra-chewy gum",
-    //     "Extended flavor",
-    //     "Sugar-free",
-    //   ],
-    // },
   ];
 
   return (

@@ -13,10 +13,13 @@ const PriceOption = ({ option }) => {
               <span className="text-4xl ">{price}</span>
               <span className="text-xl text-center">/mon</span>
             </>
-            <h4>{name}</h4>
+            <h4 className="my-3 text-3xl">{name}</h4>
+            <div className=" flex-grow">
             {
                 features.map((feature, index) => <Feature key={index} feature={feature}></Feature>)
             }
+            </div>
+            <button className="py-2 px-5 bg-pink-400 text-white text-center rounded-3xl my-4">Buy Now</button>
           </>
         }
       </div>
